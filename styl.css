@@ -42,9 +42,20 @@ body {
     background-repeat: no-repeat;
   }
   .main-container h1 {
-    color: white;
+    color: rgb(0, 255, 247);
   }
 
   .main-container p {
-    color: white;
+    color: rgb(0, 207, 138);
   }
+
+  .scrollable-file {
+    background-color: rgba(255, 0, 0, 0.248);
+    color: #ff7272;
+    padding: 10px;
+    margin-top: 250px;
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
