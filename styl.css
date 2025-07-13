@@ -25,8 +25,8 @@ body {
   .main-container {
     padding: 20px;
     min-height: calc(100vh - 50px);
-    /*min-height: 200vh;
-    margin-top: 70px;*/
+    min-height: 200vh;
+    margin-top: 70px;
 }
   .nav-button {
     background-color: cyan;
@@ -53,8 +53,8 @@ body {
     background-color: rgba(255, 0, 0, 0.248);
     color: #ff7272;
     padding: 10px;
-    margin-top: 250px;
-    height: 200px;
+    margin-top: 500px;
+    height: 400px;
     overflow-y: auto;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
