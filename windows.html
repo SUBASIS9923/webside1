@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Windows Logo</title>
+    <link
+      rel="icon"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+      type="image/svg+xml"
+    />
+    <style>
+      body {
+        margin: 0;
+        background: linear-gradient(to right, #1e3c72, #2a5298);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+      }
+
+      .box {
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        grid-template-rows: repeat(2, 100px);
+        gap: 10px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+      }
+
+      .box div {
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .box div:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .box1 {
+        background-color: #ff4d4d;
+      }
+
+      .box2 {
+        background-color: #28a745;
+      }
+
+      .box3 {
+        background-color: #3f51b5;
+      }
+
+      .box4 {
+        background-color: #ffc107;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+    </div>
+  </body>
+</html>
