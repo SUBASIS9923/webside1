@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Gear Showcase</title>
+    <link rel="icon" href="Screenshot 2025-08-07 200747.png" type="image/png">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffb0b0, #666666, #00ddff);
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            animation: fadeInBody 1s ease-in-out;
+        }
+
+        nav {
+            background-color: rgba(180, 68, 13, 0.411);
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 10px;
+            animation: slideDown 0.8s ease-in-out;
+        }
+
+        .nav_button {
+            background-color: #489500;
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .nav_button:hover {
+            background-color: #63a4ff;
+            transform: scale(1.1);
+        }
+
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: rgba(255, 0, 0, 0.1);
+            width: 250px;
+            border-radius: 15px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            animation: popIn 1s ease;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .price {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin: 10px;
+            color: #ff8000;
+        }
+
+        .desc {
+            font-size: 0.95em;
+            color: #00f7ff;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 1em;
+            border-top: 2px solid #444;
+            animation: fadeInBody 1.5s ease-in-out;
+        }
+
+        header img.banner {
+            width: 97%;
+            height: auto;
+            border-radius: 10px;
+            margin: 1em;
+            animation: fadeInBody 1.2s ease-in-out;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .logo-icon {
+            animation: spin 5s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Screenshot 2025-08-07 200747.png" alt="Logo" width="50" height="50" class="logo-icon">
+            <ul>
+                <li class="nav_button">Home</li>
+                <li class="nav_button">About</li>
+                <li class="nav_button">Contact</li>
+            </ul>
+        </nav>
+        <img src="Gemini_Generated_Image_u3vjszu3vjszu3vj.png" alt="Banner" class="banner">
+    </header>
+
+    <main>
+        <div class="box">
+            <div class="card">
+                <img src="images.jpeg" alt="TWS Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime</p>
+            </div>
+            <div class="card">
+                <img src="51Rsja-L7yL.jpg" alt="Neckband">
+                <p class="price">M.R.P ₹1,199</p>
+                <p class="desc">realme Buds Wireless 2 Neo with Fast Charging and Bass Boost Driver</p>
+            </div>
+            <div class="card">
+                <img src="Zeb-Rush-pic1.webp" alt="Headphones">
+                <p class="price">M.R.P ₹1,999</p>
+                <p class="desc">Zebronics Zeb-Rush Wired Gaming Headphones with 3.5mm Jack</p>
+            </div>
+            <div class="card">
+                <img src="51+e7yrgPpL.jpg" alt="Wireless Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">Noise Buds VS104 Truly Wireless Earbuds with 45H Playtime & Instacharge</p>
+            </div>
+            <div class="card">
+                <img src="images.png" alt="Bluetooth Earphones">
+                <p class="price">M.R.P ₹1,299</p>
+                <p class="desc">Boult Audio Curve ANC Neckband with Active Noise Cancellation</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="TWS Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime</p>
+            </div>
+            <div class="card">
+                <img src="51Rsja-L7yL.jpg" alt="Neckband">
+                <p class="price">M.R.P ₹1,199</p>
+                <p class="desc">realme Buds Wireless 2 Neo with Fast Charging and Bass Boost Driver</p>
+            </div>
+            <div class="card">
+                <img src="Zeb-Rush-pic1.webp" alt="Headphones">
+                <p class="price">M.R.P ₹1,999</p>
+                <p class="desc">Zebronics Zeb-Rush Wired Gaming Headphones with 3.5mm Jack</p>
+            </div>
+            <div class="card">
+                <img src="51+e7yrgPpL.jpg" alt="Wireless Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">Noise Buds VS104 Truly Wireless Earbuds with 45H Playtime & Instacharge</p>
+            </div>
+            <div class="card">
+                <img src="images.png" alt="Bluetooth Earphones">
+                <p class="price">M.R.P ₹1,299</p>
+                <p class="desc">Boult Audio Curve ANC Neckband with Active Noise Cancellation</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="TWS Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime</p>
+            </div>
+            <div class="card">
+                <img src="51Rsja-L7yL.jpg" alt="Neckband">
+                <p class="price">M.R.P ₹1,199</p>
+                <p class="desc">realme Buds Wireless 2 Neo with Fast Charging and Bass Boost Driver</p>
+            </div>
+            <div class="card">
+                <img src="Zeb-Rush-pic1.webp" alt="Headphones">
+                <p class="price">M.R.P ₹1,999</p>
+                <p class="desc">Zebronics Zeb-Rush Wired Gaming Headphones with 3.5mm Jack</p>
+            </div>
+            <div class="card">
+                <img src="51+e7yrgPpL.jpg" alt="Wireless Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">Noise Buds VS104 Truly Wireless Earbuds with 45H Playtime & Instacharge</p>
+            </div>
+            <div class="card">
+                <img src="images.png" alt="Bluetooth Earphones">
+                <p class="price">M.R.P ₹1,299</p>
+                <p class="desc">Boult Audio Curve ANC Neckband with Active Noise Cancellation</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="TWS Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime</p>
+            </div>
+            <div class="card">
+                <img src="51Rsja-L7yL.jpg" alt="Neckband">
+                <p class="price">M.R.P ₹1,199</p>
+                <p class="desc">realme Buds Wireless 2 Neo with Fast Charging and Bass Boost Driver</p>
+            </div>
+            <div class="card">
+                <img src="Zeb-Rush-pic1.webp" alt="Headphones">
+                <p class="price">M.R.P ₹1,999</p>
+                <p class="desc">Zebronics Zeb-Rush Wired Gaming Headphones with 3.5mm Jack</p>
+            </div>
+            <div class="card">
+                <img src="51+e7yrgPpL.jpg" alt="Wireless Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">Noise Buds VS104 Truly Wireless Earbuds with 45H Playtime & Instacharge</p>
+            </div>
+            <div class="card">
+                <img src="images.png" alt="Bluetooth Earphones">
+                <p class="price">M.R.P ₹1,299</p>
+                <p class="desc">Boult Audio Curve ANC Neckband with Active Noise Cancellation</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="TWS Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime</p>
+            </div>
+            <div class="card">
+                <img src="51Rsja-L7yL.jpg" alt="Neckband">
+                <p class="price">M.R.P ₹1,199</p>
+                <p class="desc">realme Buds Wireless 2 Neo with Fast Charging and Bass Boost Driver</p>
+            </div>
+            <div class="card">
+                <img src="Zeb-Rush-pic1.webp" alt="Headphones">
+                <p class="price">M.R.P ₹1,999</p>
+                <p class="desc">Zebronics Zeb-Rush Wired Gaming Headphones with 3.5mm Jack</p>
+            </div>
+            <div class="card">
+                <img src="51+e7yrgPpL.jpg" alt="Wireless Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">Noise Buds VS104 Truly Wireless Earbuds with 45H Playtime & Instacharge</p>
+            </div>
+            <div class="card">
+                <img src="images.png" alt="Bluetooth Earphones">
+                <p class="price">M.R.P ₹1,299</p>
+                <p class="desc">Boult Audio Curve ANC Neckband with Active Noise Cancellation</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="TWS Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime</p>
+            </div>
+            <div class="card">
+                <img src="51Rsja-L7yL.jpg" alt="Neckband">
+                <p class="price">M.R.P ₹1,199</p>
+                <p class="desc">realme Buds Wireless 2 Neo with Fast Charging and Bass Boost Driver</p>
+            </div>
+            <div class="card">
+                <img src="Zeb-Rush-pic1.webp" alt="Headphones">
+                <p class="price">M.R.P ₹1,999</p>
+                <p class="desc">Zebronics Zeb-Rush Wired Gaming Headphones with 3.5mm Jack</p>
+            </div>
+            <div class="card">
+                <img src="51+e7yrgPpL.jpg" alt="Wireless Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">Noise Buds VS104 Truly Wireless Earbuds with 45H Playtime & Instacharge</p>
+            </div>
+            <div class="card">
+                <img src="images.png" alt="Bluetooth Earphones">
+                <p class="price">M.R.P ₹1,299</p>
+                <p class="desc">Boult Audio Curve ANC Neckband with Active Noise Cancellation</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="TWS Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime</p>
+            </div>
+            <div class="card">
+                <img src="51Rsja-L7yL.jpg" alt="Neckband">
+                <p class="price">M.R.P ₹1,199</p>
+                <p class="desc">realme Buds Wireless 2 Neo with Fast Charging and Bass Boost Driver</p>
+            </div>
+            <div class="card">
+                <img src="Zeb-Rush-pic1.webp" alt="Headphones">
+                <p class="price">M.R.P ₹1,999</p>
+                <p class="desc">Zebronics Zeb-Rush Wired Gaming Headphones with 3.5mm Jack</p>
+            </div>
+            <div class="card">
+                <img src="51+e7yrgPpL.jpg" alt="Wireless Earbuds">
+                <p class="price">M.R.P ₹899</p>
+                <p class="desc">Noise Buds VS104 Truly Wireless Earbuds with 45H Playtime & Instacharge</p>
+            </div>
+            <div class="card">
+                <img src="images.png" alt="Bluetooth Earphones">
+                <p class="price">M.R.P ₹1,299</p>
+                <p class="desc">Boult Audio Curve ANC Neckband with Active Noise Cancellation</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 S.Das. Creations. All rights reserved.<br>Crafted by Subhasis Das. </p>
+    </footer>
+</body>
+</html>

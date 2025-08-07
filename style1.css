@@ -17,7 +17,7 @@ body:hover {
   z-index: 1000;
   background-color: #003366;
   padding: 0 20px;
-  height: 50px;
+  height: 70px;
   line-height: 50px;
   animation: slideDown 0.8s ease-out;
   transition: background-color 0.5s ease, box-shadow 0.5s ease;
@@ -145,7 +145,7 @@ body:hover {
 }
 
 .scrollable-file {
-  background-color: rgba(255, 0, 0, 0.248);
+  background-color: rgba(255, 0, 0, 0);
   color: #ff7272;
   padding: 10px;
   margin-top: 500px;
@@ -157,7 +157,7 @@ body:hover {
 }
 
 .scrollable-file:hover {
-  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.397);
   transform: scale(1.02);
   background-color: rgba(255, 0, 0, 0.35);
   border-radius: 16px;
